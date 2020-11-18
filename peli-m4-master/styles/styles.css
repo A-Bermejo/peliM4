@@ -1,0 +1,151 @@
+@font-face {
+  font-family: "BLADRMF";
+  src: url(font/BLADRMF.TTF);
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#e66465), to(#9198e5));
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+table, td, tr, th {
+  border: 1px black solid;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px black;
+}
+
+th, td {
+  padding: 10px;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "BLADRMF";
+  font-size: 100px;
+}
+
+nav {
+  background-color: black;
+}
+
+nav ul {
+  list-style: none;
+}
+
+.menu > li {
+  position: relative;
+  display: inline-block;
+}
+
+.menu > li > a {
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  color: blueviolet;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.submenu {
+  z-index: 1;
+  position: absolute;
+  background-color: #1f1e1e;
+  display: none;
+}
+
+.submenu li a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu li:hover a + .submenu, .submenu li:hover {
+  display: block;
+}
+
+.box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: silver;
+  opacity: 0.9;
+}
+
+.box {
+  width: 50vw;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-style: dotted;
+  border-color: black;
+}
+
+.box2 {
+  width: 98vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+h2 {
+  color: blueviolet;
+}
+
+h3 {
+  text-decoration: underline;
+  color: aquamarine;
+}
+
+footer {
+  border-style: groove;
+  border-color: cyan;
+}
+
+.box4 {
+  display: inline;
+}
+
+.media {
+  margin: 1vw;
+  width: 450px;
+  background: #3f5efb;
+  background: radial-gradient(circle, #3f5efb 0%, #fc466b 100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  justify-items: center;
+}
+/*# sourceMappingURL=styles.css.map */
