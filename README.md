@@ -4,14 +4,14 @@ Aqui estan les 4 versions de la meva pagina:
 ### V1
 Aquesta és la web on he arreglat els problemes de la [prácitca anterior](https://a-bermejo.github.io/peliM4/pg1/) [](https://a-bermejo.github.io/peliM4/pg1/)
 ### V2
-Aquesta és la web on he arreglat elAquesta és la web anterior però que he posat CSS que ha estat compilador per SASS, he intentat que sigui els mes [responsiba posble.](https://a-bermejo.github.io/peliM4/pg2/)
+Aquesta és la web anterior però que he posat [CSS amb ayuda de SASS](https://a-bermejo.github.io/peliM4/pg2/)
 ### V3
 Aquesta web està feta amb bootstrap, la plantilla l'he fet [amb froala](https://a-bermejo.github.io/peliM4/bostrap/)
 ### V4
-Aquesta web està feta antilla l'he fet amb una plantilla [CSS i HTML](https://a-bermejo.github.io/peliM4/responsive/)
+Aquesta web està feta amb una plantilla [CSS i HTML](https://a-bermejo.github.io/peliM4/responsive/)
 ## Propiedades CSS
 
- 
+ :feelsgood: :feelsgood: :feelsgood:
 
  1. @font-face
  2. font-size
